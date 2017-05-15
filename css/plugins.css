@@ -29,7 +29,6 @@
   background-color: #292B2C;
   padding: 1em;
   word-spacing: .2em;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -63,8 +62,9 @@
   color: #13b4d6;
 }
 .headtext{
-	font-size: 42px;
-	font-weight: 600;
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bold;
 }
 .headbox{
 	background-color: rgba(41, 43, 44, 0.8);
@@ -72,12 +72,31 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
 }
-.bodybox{
+.questionbox{
 	background-color: rgba(41, 43, 44, 0.8);
 	border: 1px solid black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
 	margin-top: -3em;
 }
-
+.mainlistbox{
+	background-color: rgba(41, 43, 44, 0.8);
+	border: 1px solid black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+h3, h2{
+	text-decoration: underline;
+	text-align: center
+}
+h5{
+	text-decoration: underline;
+	font-weight: bold;
+}
+ol{
+	font-size: 21px;
+}
+ul{
+	font-size: 14px;
+}
 

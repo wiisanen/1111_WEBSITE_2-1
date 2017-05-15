@@ -29,7 +29,6 @@
   background-color: #292B2C;
   padding: 1em;
   word-spacing: .2em;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -63,8 +62,9 @@
   color: #13b4d6;
 }
 .headtext{
-	font-size: 42px;
-	font-weight: 600;
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bold;
 }
 .headbox{
 	background-color: rgba(41, 43, 44, 0.8);
@@ -72,12 +72,42 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
 }
-.bodybox{
+.openingbox{
 	background-color: rgba(41, 43, 44, 0.8);
 	border: 1px solid black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
 	margin-top: -3em;
 }
-
-
+.strengthsbox{
+	background-color: rgba(41, 43, 44, 0.8);
+	border: 1px solid black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+.strengthsbox p{
+	text-indent: 50px;
+	margin-left: 50px;
+}
+.weaknessesbox{
+	background-color: rgba(41, 43, 44, 0.8);
+	border: 1px solid black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+.weaknessesbox p{
+	text-indent: 50px;
+	margin-left: 50px;
+}
+h3, h2{
+	text-decoration: underline;
+	text-align: center;
+}
+h5{
+	text-decoration: underline;
+	font-weight: bold;
+}
+ul{
+	margin-left: 55px;
+	margin-bottom: -40px;
+}
